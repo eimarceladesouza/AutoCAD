@@ -1,7 +1,8 @@
 ;|
 
-TLEN.LSP - Total LENgth of selected objects
-(c) 1998 Tee Square Graphics
+TLEN.LSP - Comprimento total das linhas.
+
+GitHub: ei_marceladesouza
 
 |;
 
