@@ -1,4 +1,4 @@
-;*Multiplo OFFSET*
+; MOFFSET - Serve para gerar varias paparelas rapidamente.
 (defun C:MOFFSET (/ ent spt dist)
 	(setq dist (getdist "Distancia p/ Offset:")
 		mdist dist ent (entsel "\nSelecione objeto:")
