@@ -1,9 +1,6 @@
 (defun c:TabIncPad-dbhunia (/ pad pre suf digits num)
- ;; Tab Increment, Padded
- ;; Rename layout tabs with number, based on location, padded with
- ;;   prefixed 0's so that all order components have same number of digits
- ;; Prefix and Suffix optional
- ;; Altered/expanded by Kent Cooper from code by Alan J. Thompson
+ ;; tabinc - renomear os layouts.
+
   (defun pad (m / padded) ; fill out with preceding 0's as appropriate
     (setq padded (itoa m))
     (while (< (strlen padded) digits)
