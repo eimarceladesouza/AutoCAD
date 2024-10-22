@@ -1,4 +1,4 @@
-;CHANGE CASE OF TEXT
+;CHGCASE - Altera letras de textos de maiúsculas para minúsculas e vice-versa.
 (defun C:CHGCASE (/ TYP ENT ENTG TXT)
   (initget 6 "Upper Lower")
   (setq TYP (getkword "\n \nChange to Upper or Lower case <U>: "))
