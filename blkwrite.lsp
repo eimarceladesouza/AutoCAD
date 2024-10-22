@@ -1,12 +1,5 @@
-;This is the revised version of BLKWRITE that appears in the AutoCAD
-;Database Book.  THIS VERSION WILL ONLY WORK WITH AUTOCAD VERSION 2.6 OR
-;LATER.  This version will look at ALL of the blocks in a drawing by looking
-;at the BLOCK table and then writing all of the blocks out to a disk file
-;if they don't already exist.  Otherwise, this version has all of the same
-;features that are in the original.
-;
-;
-;
+; BLKWRITE - Exporta blocos do desenho em arquivos separados.
+
 (defun C:blkwrite ( / e blocklist blkcnt a ynlst ylst l excptlist blk)
         (setq cmdmode (getvar "cmdecho")) (setvar "cmdecho" 0)
         (setq blk (tblnext "BLOCK" T))
