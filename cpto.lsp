@@ -1,6 +1,6 @@
 (defun C:CPTO (/ loop perim_total sel qtde ent perim)
 (setvar "cmdecho" 0)
-;(princ "\n Soma cpto. de qq entidade que tenha perímetro...")
+;(princ "\n Soma cpto. de qq entidade que tenha perÃ­metro...")
 (princ "\n Selecione a(s) linha(s) e/ou (lw)polyline(s): ")
 (setq loop 0 perim_total 0)
 (setq sel (ssget (list (cons 0 "*LINE") )))
@@ -21,7 +21,7 @@
 (if sel
 (prompt
 (strcat
-"\n Perímetro Total de " (itoa (sslength sel))
+"\n PerÃ­metro Total de " (itoa (sslength sel))
 " entidade(s) - " (rtos perim_total 2 3)
 ))))
 )
