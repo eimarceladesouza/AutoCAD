@@ -1,6 +1,6 @@
 ;|
 
-TLEN.LSP - Comprimento total das linhas.
+TLEN.LSP - Comprimento total das linhas em janela pop-up.
 
 GitHub: ei_marceladesouza
 
